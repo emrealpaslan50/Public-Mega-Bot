@@ -44,5 +44,5 @@ bot.login(process.env.TOKEN).catch(saiyanix => console.log(bot.chalk.bgRedBright
 ///--Discord apiye bağlantı--//
 
 process.on("unhandledRejection", error => {
-    console.error(bot.chalk.bgRedBright('Hata:', error));
+    //console.error(bot.chalk.bgRedBright('Hata:', error));
 });
